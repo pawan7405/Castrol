@@ -1,0 +1,121 @@
+Use Prism_Datamart_MVC
+
+ 
+
+select * from Loginmaster where EmployeeName like ('%Demo account3%')
+
+ 
+
+select * from AccessLevelGroupMapping
+
+select * from AccessLevelMaster
+
+select * from AccessGroupType
+
+select * from MenuMaster
+
+select * from MenuMasterDetail where MenuMDID=64 and FreezeStatus=0
+
+select * from MenuMasterDetail where MenuParentID=64 and FreezeStatus=0
+
+select * from MenuMasterDetail where MenuParentID=8 and FreezeStatus=0
+
+select * from AccessGroupMST where AccessLMID=1 and ActiveStatus=0
+
+select * from AccessDetail where LoginMID=59626
+
+ 
+
+select * from ADMaster
+
+ 
+
+select * from ClientLoginMappingDetail where LoginMID=59626
+
+ 
+
+select * from ClientMappingMaster
+
+ 
+
+select * from ClientMasterDetail
+
+select * from ClientReportMaster where ClientID=202
+
+ 
+
+select * from EU_FileUploadMaster where FileUMID=5529
+
+select * from EU_RawDataMaster where FileUMID=5529
+
+Select * from EU_StatusMaster
+
+ 
+
+select * from EmeraldHierarchies_MVC.dbo.Clients where IsActive=1
+
+ 
+
+select * from EmeraldHierarchies_MVC.dbo.GlobalUsers where GlobalUserID=84461
+
+select * from EmeraldHierarchies_MVC.dbo.HRUserRolesGlobalUsers where GlobalUserID=84461
+
+ 
+
+select * from EmeraldHierarchies_MVC.dbo.HRSystemSources where ClientID=202
+
+select * from EmeraldHierarchies_MVC.dbo.HRSites where HRSystemSourcesID=18
+
+select * from EmeraldHierarchies_MVC.dbo.HRDepartments where HRSystemSourcesID=18
+
+select * from EmeraldHierarchies_MVC.dbo.HRPosts where HRSystemSourcesID=18
+
+select * from EmeraldHierarchies_MVC.dbo.HRDivisions where HRSystemSourcesID=18
+
+ 
+
+select * from EmeraldHierarchies_MVC.dbo.Projects where ClientID=202
+
+select * from EmeraldHierarchies_MVC.dbo.GlobalUserProjects where GlobalUserID=84461
+
+ 
+
+select * from EmeraldHierarchies_MVC.dbo.Campaigns where ProjectID=311
+
+select * from EmeraldHierarchies_MVC.dbo.GlobalUserCampaigns where GlobalUserID=84461
+
+ 
+
+select * from EmeraldHierarchies_MVC.dbo.GlobalUserRoles where GlobalUserID=84461 and FreezeStatus=0
+
+select * from EmeraldHierarchies_MVC.dbo.ClientDashboardMapping where ClientID=202
+
+ 
+
+select * from EmeraldHierarchies_MVC.dbo.GlobalUserCallSystemMapping
+
+ 
+
+select * from EmeraldHierarchies_MVC.dbo.GlobalUserClients
+
+select * from EmeraldHierarchies_MVC.dbo.HRLeaverReasons where HRSystemSourcesID=18
+
+select * from LoginLogDetail where LoginMID=22 order by 1
+
+ 
+
+select * from ClientReportMaster where ClientID=202
+
+select * from ReportMasterDetail where ID=381
+
+select * from ReportMasterUIDetail where ID=96
+
+select * from ReportMasterUIDetailExt where ReportMasterUIID=96
+
+select * from ReportMasterAdditionalDetail
+
+select * from Report_GroupMaster
+
+ 
+
+select * from WeekMaster where Date>='2021-01-01'
